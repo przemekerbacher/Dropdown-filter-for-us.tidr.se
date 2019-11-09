@@ -1,0 +1,26 @@
+{
+  "name": "Filter for selector",
+  "version": "1.0",
+  "description": "Extensions add possibility to type text for items list and filter them.",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/scorpio_16.png",
+      "32": "images/scorpio_32.png",
+      "48": "images/scorpio_48.png",
+      "128": "images/scorpio_128.png"
+    }
+  },
+  "icons": {
+    "16": "images/scorpio_16.png",
+    "32": "images/scorpio_32.png",
+    "48": "images/scorpio_48.png",
+    "128": "images/scorpio_128.png"
+  },
+  "manifest_version": 2
+}
